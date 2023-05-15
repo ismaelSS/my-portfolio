@@ -1,5 +1,6 @@
 import { styled } from '@/styles/stitches.config';
 import { colors } from '@/styles/Global'
+import {keyframes } from "@stitches/react";
 
 const headingsDefaultConfig = {
     fontFamily: "$titles"
@@ -8,6 +9,7 @@ const headingsDefaultConfig = {
 const bodyDefaultConfig = {
     fontFamily: "$texts"
 }
+
 
 export const Text = styled("p", {
     color: "$grey1",

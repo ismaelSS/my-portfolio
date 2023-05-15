@@ -1,7 +1,7 @@
 import { styled } from "@/styles/stitches.config";
 import { Flex } from "@/styles/Global";
 import { Button } from "@/styles/Buttons";
-import { css } from "@stitches/react";
+import { css, keyframes } from "@stitches/react";
 
 import meIlustration from "@/public/static/img/background/me-ilustration.svg";
 import backgroundImg from "@/public/static/img/background/header-bg.svg";
@@ -65,8 +65,25 @@ export const HeaderButtonsArea = styled(Flex, {
   },
 });
 
+const gradientAnimation = keyframes({
+  "100%": {
+    backgroundPositionY: '48px',
+  },
+});
+
+
 export const UserImage = styled("img", {
-  borderRadius: "50%",
+  borderRadius: "4%",
+  paddingLeft: "6px",
+  objectFit:'cover',
+  background: `linear-gradient(
+      180deg,
+      rgba(98, 60, 234, 1) 0%,
+      rgba(252, 98, 0, 1) 36%,
+      rgba(212, 27, 27, 1) 66%,
+      rgba(98, 60, 234, 1) 100%
+    )`,
+  animation: `${gradientAnimation} 3s ease-in-out infinite`,
   "@mobile": {
     width: "2.25rem",
     height: "2.25rem",

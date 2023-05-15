@@ -41,8 +41,8 @@ export const Home = (): JSX.Element => {
                 src={`https://github.com/${userData.githubUser}.png`}
                 alt={userData.nameUser}
                 title={userData.nameUser}
-                width={"48px"}
-                height={"48px"}
+                width={"60px"}
+                height={"60px"}
               />
               <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
             </Flex>
@@ -51,11 +51,10 @@ export const Home = (): JSX.Element => {
               <Text as="span" type="heading1" color="brand1">
                 love
               </Text>{" "}
-              creating and{" "}
+              smarth{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+                soluctions
               </Text>{" "}
-              projects
             </Text>
             <Text type="body1" color="grey2">
               Discover here in this environment, created especially for you, all
