@@ -83,7 +83,7 @@ export const UserImage = styled("img", {
       rgba(212, 27, 27, 1) 66%,
       rgba(98, 60, 234, 1) 100%
     )`,
-  animation: `${gradientAnimation} 3.5s ease infinite`,
+  animation: `${gradientAnimation} 3.5s linear infinite`,
   "@mobile": {
     width: "2.25rem",
     height: "2.25rem",
