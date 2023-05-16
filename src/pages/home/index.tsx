@@ -44,7 +44,7 @@ export const Home = (): JSX.Element => {
                 width={"60px"}
                 height={"60px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text color="grey4">Hello, my name is {userData.nameUser}😊</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
             I{" "}
@@ -57,8 +57,8 @@ export const Home = (): JSX.Element => {
               </Text>{" "}
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+            As a developer I believe that having the ability to learn, work in a healthy team 
+            and solve problems are my three main characteristics
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
