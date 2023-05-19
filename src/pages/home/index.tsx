@@ -51,9 +51,9 @@ export const Home = (): JSX.Element => {
               <Text as="span" type="heading1" color="brand1">
                 love
               </Text>{" "}
-              smarth{" "}
+              smart{" "}
               <Text as="span" type="heading1" color="brand1">
-                soluctions
+                solutions
               </Text>{" "}
             </Text>
             <Text type="body1" color="grey2">
